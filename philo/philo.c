@@ -42,10 +42,8 @@ void	start_emulation(t_philo *philo)
 
 int	main(int argc, char **argv)
 {
-	int		i;
 	t_philo	philo;
 
-	i = -1;
 	if (argc == 5 || argc == 6)
 	{
 		if (philo_init(argc, argv, &philo) == 1)
